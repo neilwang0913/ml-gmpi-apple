@@ -3,6 +3,7 @@ channels:
   - defaults
   - pytorch
   - conda-forge
+  - anaconda
 dependencies:
   - python=3.7
   - numpy
@@ -19,9 +20,10 @@ dependencies:
   - pytorch=1.9.1
   - torchvision=0.10.1
   - torchaudio==0.9.1
-  - cudatoolkit=10.2
+  - cudatoolkit
   - tensorboard
   - pip
+
   - pip:
     - setuptools==59.5.0
     - lpips
@@ -44,5 +46,5 @@ dependencies:
     - psutil
     - lazy
     - imageio-ffmpeg==0.4.3
-    - pyspng==0.1.0
+    - pillow
     - PyMCubes
