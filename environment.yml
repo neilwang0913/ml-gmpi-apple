@@ -1,9 +1,10 @@
+# This version is modified for Apple OS
 name: gmpi
 channels:
   - defaults
   - pytorch
   - conda-forge
-  - anaconda
+  - anaconda # added for miniconda installization
 dependencies:
   - python=3.7
   - numpy
@@ -46,5 +47,5 @@ dependencies:
     - psutil
     - lazy
     - imageio-ffmpeg==0.4.3
-    - pillow
+    - pillow # For Apple OS
     - PyMCubes
